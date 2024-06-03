@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  cache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/lilithgames/nginx-cache:v1
