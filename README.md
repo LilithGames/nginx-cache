@@ -3,6 +3,7 @@ nginx 缓存回源docker镜像
 
 # Usage
 替换`<your-backend-url>`为实际回源地址
+
 for debug
 ```
 docker run --rm -e "BACKEND_URL=https://<your-backend-url>" -p 80:8080 -it ghcr.io/lilithgames/nginx-cache:v1
